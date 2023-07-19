@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T03:07:21.060Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="CEoJesE7Q6jGloyXzOLm" version="21.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T03:17:53.058Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="DEf7F0Hhyc7TpCN-CDsC" version="21.6.1" type="github">
   <diagram name="第 1 页" id="O-Jhzu-0nHvB-84oUUoi">
     <mxGraphModel dx="1195" dy="617" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,7 +47,7 @@
         <mxCell id="-wAlXCzDXkSY3gVBRplQ-21" value="华为云网关代理" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-1">
           <mxGeometry x="400" y="100" width="80" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="-wAlXCzDXkSY3gVBRplQ-2" value="数据域到公安网" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-2" value="数据域到公安网" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="1">
           <mxGeometry x="50" y="520" width="740" height="350" as="geometry" />
         </mxCell>
         <mxCell id="-wAlXCzDXkSY3gVBRplQ-37" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-2">
@@ -59,8 +59,8 @@
         <mxCell id="-wAlXCzDXkSY3gVBRplQ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.075;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-wAlXCzDXkSY3gVBRplQ-2" source="-wAlXCzDXkSY3gVBRplQ-15" target="-wAlXCzDXkSY3gVBRplQ-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="-wAlXCzDXkSY3gVBRplQ-15" value="正式接口平台&lt;br&gt;restful-interface&lt;br&gt;执法办案web1、5、10" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-2">
-          <mxGeometry x="70" y="70" width="120" height="60" as="geometry" />
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-15" value="正式接口平台&lt;br&gt;&lt;font color=&quot;#ff4912&quot;&gt;interface-service-interval&lt;/font&gt;&lt;br&gt;执法办案web3、4、7" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-2">
+          <mxGeometry x="70" y="50" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="-wAlXCzDXkSY3gVBRplQ-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.16;entryY=0.55;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="-wAlXCzDXkSY3gVBRplQ-2" source="-wAlXCzDXkSY3gVBRplQ-16" target="-wAlXCzDXkSY3gVBRplQ-23">
           <mxGeometry relative="1" as="geometry" />
@@ -115,6 +115,17 @@
         </mxCell>
         <mxCell id="-wAlXCzDXkSY3gVBRplQ-38" value="培训" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#2B24FF;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-2">
           <mxGeometry x="510" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-39" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.451;entryY=1.05;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="-wAlXCzDXkSY3gVBRplQ-15" target="-wAlXCzDXkSY3gVBRplQ-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="540" as="sourcePoint" />
+            <mxPoint x="390" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-40" value="进出由单独服务管理" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="-wAlXCzDXkSY3gVBRplQ-39">
+          <mxGeometry x="-0.085" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
