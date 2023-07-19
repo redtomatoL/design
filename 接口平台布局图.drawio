@@ -1,9 +1,42 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T02:19:22.960Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.6.1" etag="GS07B8ngO6a3-eoUAKBA" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T02:36:28.883Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="XufA9ox6lG33w9OmiQMJ" version="21.6.1" type="github">
   <diagram name="第 1 页" id="O-Jhzu-0nHvB-84oUUoi">
-    <mxGraphModel>
+    <mxGraphModel dx="1434" dy="740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-1" value="公安网到数据域" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="230" width="740" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-wAlXCzDXkSY3gVBRplQ-1" source="-wAlXCzDXkSY3gVBRplQ-3" target="-wAlXCzDXkSY3gVBRplQ-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-wAlXCzDXkSY3gVBRplQ-1" source="-wAlXCzDXkSY3gVBRplQ-3" target="-wAlXCzDXkSY3gVBRplQ-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-3" value="10.24.157.112 代理服务&lt;br&gt;auth&lt;br&gt;gateway&lt;br&gt;proxy" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-1">
+          <mxGeometry x="280" y="100" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-4" value="正式接口平台&lt;br&gt;restful-interface&lt;br&gt;执法办案web1、5、10" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-1">
+          <mxGeometry x="530" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-5" value="培训学校接口平台&lt;br&gt;restful-interface&lt;br&gt;培训学校web2" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-1">
+          <mxGeometry x="530" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-wAlXCzDXkSY3gVBRplQ-1" source="-wAlXCzDXkSY3gVBRplQ-11" target="-wAlXCzDXkSY3gVBRplQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-11" value="请求http://10.24.157.112:12111/interface-open/open-api/demo/hello?param=yu 是到正式环境" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-1">
+          <mxGeometry x="70" y="40" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=80;exitDy=65;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="-wAlXCzDXkSY3gVBRplQ-1" source="-wAlXCzDXkSY3gVBRplQ-12" target="-wAlXCzDXkSY3gVBRplQ-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-12" value="请求http://10.24.157.112:12111/interface-open/&lt;b&gt;&lt;font color=&quot;#ff3333&quot;&gt;interface-tra&lt;/font&gt;&lt;/b&gt;/open-api/demo/hello?param=yu 是到培训学校环境" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="-wAlXCzDXkSY3gVBRplQ-1">
+          <mxGeometry x="70" y="170" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="-wAlXCzDXkSY3gVBRplQ-2" value="数据域到公安网" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;startSize=23;" vertex="1" parent="1">
+          <mxGeometry x="50" y="520" width="740" height="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
