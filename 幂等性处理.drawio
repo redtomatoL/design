@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-04T09:26:05.684Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="zR1-Ql-pWCkWZdnQDeSw" version="21.6.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-04T09:28:10.991Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wczg8pb1-YtruEa8pJbs" version="21.6.9" type="github">
   <diagram name="第 1 页" id="11f2MM4YsrPZdB35buU8">
     <mxGraphModel dx="1562" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_BseXzkGbUEC1sAC8K0_-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="_BseXzkGbUEC1sAC8K0_-2" target="_BseXzkGbUEC1sAC8K0_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="_BseXzkGbUEC1sAC8K0_-2" value="前端" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="50" y="230" width="120" height="60" as="geometry" />
         </mxCell>
@@ -29,13 +32,16 @@
           <mxGeometry x="640" y="110" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="_BseXzkGbUEC1sAC8K0_-10" value="综合查询、统计分析业务" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="540" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="470" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="_BseXzkGbUEC1sAC8K0_-12" value="调用超时时间设置为10分钟" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_BseXzkGbUEC1sAC8K0_-12" value="调用超时时间设置为10分钟，幂等性处理。5s内不允许重复提交" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="170" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="_BseXzkGbUEC1sAC8K0_-13" value="设置超时时间65s" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="_BseXzkGbUEC1sAC8K0_-13" value="设置接口调用超时时间65s" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="30" y="160" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_BseXzkGbUEC1sAC8K0_-16" value="微服务内调用，禁止ribbon 故障转移以及重试机制。如果调用失败，则整个链路返回失败" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="50" width="200" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
