@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T01:04:09.844Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="R4TDCYw0LUbUPF6LFMyi" version="21.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T01:12:35.524Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="p7jK8LeL8yK8JsouxB4G" version="21.8.0" type="github">
   <diagram name="第 1 页" id="nvpzna9e1GnrQh9cRXuR">
     <mxGraphModel dx="1562" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,7 @@
           <mxGeometry x="60" y="180" width="220" height="260" as="geometry" />
         </mxCell>
         <mxCell id="T2e1q8e19z0jkwDY4RHi-21" value="案件服务" style="swimlane;whiteSpace=wrap;html=1;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="1">
-          <mxGeometry x="490" y="180" width="240" height="590" as="geometry" />
+          <mxGeometry x="450" y="180" width="350" height="800" as="geometry" />
         </mxCell>
         <mxCell id="T2e1q8e19z0jkwDY4RHi-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-22" target="T2e1q8e19z0jkwDY4RHi-25">
           <mxGeometry relative="1" as="geometry" />
@@ -40,8 +40,54 @@
         <mxCell id="T2e1q8e19z0jkwDY4RHi-25" value="kafka消息落库&lt;br&gt;T_APPROVE_FINISH_MESSAGE_LOG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
           <mxGeometry x="50" y="140" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="T2e1q8e19z0jkwDY4RHi-28" value="" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
-          <mxGeometry x="50" y="265" width="120" height="60" as="geometry" />
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-28" target="T2e1q8e19z0jkwDY4RHi-31">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-28" value="消息接收确认ack" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="50" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-31" target="T2e1q8e19z0jkwDY4RHi-33">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-31" value="存入消息日志流水表&lt;br&gt;T_KAFKA_RECV_MSG" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="50" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-33" target="T2e1q8e19z0jkwDY4RHi-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-33" value="执行业务逻辑" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="50" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-35">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-39" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="T2e1q8e19z0jkwDY4RHi-38">
+          <mxGeometry x="-0.4067" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-35" target="T2e1q8e19z0jkwDY4RHi-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-35" value="是否异常" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="70" y="510" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-40" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="210" y="506.25" width="80" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-44" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="T2e1q8e19z0jkwDY4RHi-21" source="T2e1q8e19z0jkwDY4RHi-41" target="T2e1q8e19z0jkwDY4RHi-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-41" value="异常信息记录到&lt;br&gt;T_APPROVEFINISH_ERROR_DATA" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="50" y="590" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-43" value="结束" style="ellipse;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="70" y="700" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T2e1q8e19z0jkwDY4RHi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="T2e1q8e19z0jkwDY4RHi-28" target="T2e1q8e19z0jkwDY4RHi-16">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
