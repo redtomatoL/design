@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2023-10-27T01:15:33.308Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" version="21.8.0" etag="BcK4BisGux9Lc28eArXT" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-27T01:25:07.901Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="ogFN3Y9aCIeOEZokvfZQ" version="21.8.0" type="github">
   <diagram name="第 1 页" id="LQdozCUzeREpDvEhHPBl">
-    <mxGraphModel>
+    <mxGraphModel dx="1562" dy="862" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-1" target="T9YjubL9M0EGLn5qWtzr-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-1" value="保存业务数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="140" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-2" target="T9YjubL9M0EGLn5qWtzr-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-2" value="前端提交审批" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-4" target="T9YjubL9M0EGLn5qWtzr-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-4" value="领导审批，将数据保存到审批相关表" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-6" target="T9YjubL9M0EGLn5qWtzr-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-6" value="审批完成后前端调用后端审批后处理接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="420" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-8" target="T9YjubL9M0EGLn5qWtzr-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-8" value="后端告知前端需要生成的文书并保存到T_DOC_SAVE表中" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-10" target="T9YjubL9M0EGLn5qWtzr-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-10" value="开始" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="70" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-12" target="T9YjubL9M0EGLn5qWtzr-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-12" value="前端根据后端返回，调用各业务文书生成接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="620" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="T9YjubL9M0EGLn5qWtzr-14" target="T9YjubL9M0EGLn5qWtzr-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-14" value="文书生成接口生成完成后删除T_DOC_SAVE表中数据" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="150" y="720" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="T9YjubL9M0EGLn5qWtzr-16" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="155" y="810" width="110" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
