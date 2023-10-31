@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T08:55:39.463Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="F8iMknVAuu08AdN-BoQ7" version="22.0.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-31T08:56:05.055Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="0kIVNcH60fAlbT5bY2BU" version="22.0.8" type="github">
   <diagram name="第 1 页" id="nvpzna9e1GnrQh9cRXuR">
     <mxGraphModel dx="1434" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -109,6 +109,9 @@
         </mxCell>
         <mxCell id="jSHVuGOvZ5C0tjxDWZt7-8" value="结束" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
           <mxGeometry x="270" y="166.25" width="80" height="57.5" as="geometry" />
+        </mxCell>
+        <mxCell id="jSHVuGOvZ5C0tjxDWZt7-11" value="保障消息消费一次" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="T2e1q8e19z0jkwDY4RHi-21">
+          <mxGeometry x="130" y="120" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="T2e1q8e19z0jkwDY4RHi-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" parent="1" source="T2e1q8e19z0jkwDY4RHi-28" target="T2e1q8e19z0jkwDY4RHi-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
